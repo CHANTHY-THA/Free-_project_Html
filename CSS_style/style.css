@@ -1,0 +1,225 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background:rgba(19, 15, 15, 0.959);
+}
+.container{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)), url("../image/3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    /* position: sticky;
+    top: 0; */
+    /* z-index: -1; */
+    
+}
+
+
+.manu{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+.logo{
+    display: flex;
+    margin-left: 2%;
+    font-family: cursive;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin-right: 3%;
+    height: 5vh;
+    align-items: center;
+    margin-top: 2%;
+  
+}
+ul li{
+    padding: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+/* hover */
+ul li a:hover{
+    border: 1px solid #fff;
+    padding: 9px;
+    background: rgba(0,0,0,0.2);
+    color: #fff;
+    transition: 0.5s ease;
+}
+ul .home a{
+    color: peru;
+}
+article{
+    font-size: 15px;
+}
+h1,article, span{
+    color: #fff;
+    font-family: 'Changa', sans-serif;
+}
+h4{
+    text-transform: uppercase;
+    padding:18px 12px;
+    color: peru;
+
+    height: 2vh;
+
+}
+h5{
+    font-family: 'Odor Mean Chey', cursive;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+p{
+    font-family: 'Kantumruy', sans-serif;
+    margin-top: 0;
+}
+h5,
+p{
+    color: #fff;
+}
+
+.get{
+    text-align: center;
+    height: 90%;
+    margin-top: 2%;
+
+}
+.button{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+   margin-left: 40%;
+}
+.sign a{
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: rgba(205, 134, 63, 0.658);
+    padding: 10px 20px;
+    border-radius: 2px;
+ 
+
+}
+.sign{
+    margin-top: 10%;
+    list-style: none;
+}
+/* sign in hover */
+.sign a:hover{
+    background: rgba(24, 81, 187, 0.753);
+    transition: 0.5s ease;
+}
+.sign:hover{
+    margin-top: 25px;
+    transition: 0.5s ease;
+}
+.pic{
+    height: 6vh;
+    margin-top: 12%;
+}
+img{
+    border-radius: 360px;
+    width: 40px;
+    height: 40px;
+
+}
+
+.column {
+    width: 100%;
+    padding: 0 23px;
+    border-radius: 5px;
+}
+
+.row {
+    margin: 50px 50px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8,
+.card9,
+.card10,
+.card11,
+.card12{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+}
+.card1{
+    background-image: url(../image/1.jpg);
+}
+.card2 {
+    background-image: url(../image/2.jpg);
+}
+.card3 {
+    background-image: url(../image/3.jpg);
+}
+.card4 {
+    background-image: url(../image/4.jpg);
+}
+.card5 {
+    background-image: url(../image/5.jpg);
+}
+.card6 {
+    background-image: url(../image/6.jpg);
+}
+.card7 {
+    background-image: url(../image/7.jpg);
+}
+.card8 {
+    background-image: url(../image/8.jpg);
+}
+.card9 {
+    background-image: url(../image/9.jpg);
+}
+.card10 {
+    background-image: url(../image/10.jpg);
+}
+.card11 {
+    background-image: url(../image/11.jpg);
+}
+.card12 {
+    background-image: url(../image/12.jpg);
+}
+.column .card1:hover,
+.column .card2:hover,
+.column .card3:hover,
+.column .card4:hover,
+.column .card5:hover,
+.column .card6:hover,
+.column .card7:hover,
+.column .card8:hover,
+.column .card9:hover,
+.column .card10:hover,
+.column .card11:hover,
+.column .card12:hover{
+    border-radius: 5px;
+    transition: 0.7s ease;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+footer{
+    background: rgba(45, 100, 184, 0.5);
+    padding: 25px;
+    text-align: center;
+    color: #fff;
+    font-family: cursive;
+}
