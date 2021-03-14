@@ -1,36 +1,22 @@
 body{
     margin: 0;
     padding: 0;
-    background:rgba(19, 15, 15, 0.959);
+    background:rgba(20, 19, 19, 0.959);
     font-family: sans-serif;
+   
 
 }
+/* manu */
 .manu{
     display: flex;
     justify-content: space-between;
     position: sticky;
     top: 0;
 }
-h4{
-    text-transform: uppercase;
-    padding:18px 12px;
-    color: peru;
-
-    height: 2vh;
-
-}
-h5{
-    font-family: 'Odor Mean Chey', cursive;
-    font-size: 18px;
-    margin-bottom: 0;
-}
-p{
-    font-family: 'Kantumruy', sans-serif;
-    margin-top: 0;
-}
-h5,
-p{
-    color: #fff;
+.home,
+.contect,
+.visit{
+    border: none;
 }
 .pic{
     height: 6vh;
@@ -51,16 +37,16 @@ ul .home a{
     color: peru;
 }
 ul{
-    list-style: none;
+    width: 30%;
     display: flex;
-    margin-right: 3%;
-    height: 5vh;
     align-items: center;
     margin-top: 2%;
-    margin-left: 50%;
+  
+    margin-right: 2%;
+    
 }
 ul li{
-    padding: 20px;
+    padding: 5px;
 }
 ul li a{
     text-decoration: none;
@@ -71,66 +57,193 @@ ul li a{
 /* hover */
 ul li a:hover{
     border: 1px solid #fff;
-    padding: 9px;
+    padding: 7px;
     background: rgba(0,0,0,0.2);
     color: #fff;
     transition: 0.5s ease;
 
 }
-.trainport{
-    width: 40%;
-    height: 220vh;
+
+
+
+/* booking */
+
+.booking{
+    box-sizing: border-box;
+    width: 90%;
+    margin-bottom: 5%;
+}
+.com{
+    margin-left: 5%;
+}
+.one{
+    border: none;
+    padding-bottom: 0;
+    
+}
+h5{
+    font-family: 'Odor Mean Chey', cursive;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+p{
+    font-family: 'Kantumruy', sans-serif;
+    margin-top: 0;
+}
+h5,
+p{
+    color: #fff;
+}
+.lef{
+    width: 27%;
+    margin-left: 7%;
+    margin-right: 3%;
+  
+    margin-bottom: 5%;
+}
+h4{
+    text-transform: uppercase;
+    padding:18px 12px;
+    color: peru;
+    height: 2vh;
+
+}
+li {
+    list-style: none;
+    color: #fff;
+}
+li a{
+    color: #fff;
+}
+.fa{
+    padding: 8px;
+    width: 16px;
+    text-decoration: none;
+    margin: 5px 10px;
+    border-radius: 360px;
+
+}
+.fa:hover{
+    background: rgba(204, 176, 176, 0.63);
+}
+.fa-shopping-bag{
+    background: rgba(179, 34, 34, 0.945);
+}
+.fa-hotel{
+    background: rgba(22, 161, 22, 0.788);
+}
+.fa-bus{
+    background: rgb(21, 120, 167);
+}
+.fa-train{
+    background: rgba(0, 109, 128, 0.829);
+}
+.fa-plane{
+    background: rgba(46, 119, 168, 0.829);
+}
+.fa-car{
+    background: rgba(119, 108, 43, 0.863);
+}
+.fa-motorcycle{
+    background: rgb(29, 139, 78);
+}
+.fa-ship{
+    background: rgb(15, 74, 92);
 }
 .picture{
     display: flex;
 }
-.column {
-    width: 100%;
-    padding: 0 23px;
-    border-radius: 5px;
-    
-}
-.column1,
-.column2,
-.column3,
-.column4{
-    width: 100%;
-    border-radius: 5px;
-    padding: 20px;
+h6{
+    color: #fff;
+    font-family: 'Odor Mean Chey', cursive;
+    font-size: 18px;
+    border-bottom: 1px solid;
+    padding-bottom: 2%;
+    margin-left: 5%;
 }
 
+
+
+/* content of image */
+.back{
+    width: 60%;
+    padding: 0 30px;
+}
+h3{
+    width: 80%;
+    color: #fff;
+    border-bottom: 1px solid;
+    text-align: center;
+    padding-bottom: 1%;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+.column {
+    padding: 0 23px;
+    border-radius: 5px;
+}
 .row {
     display: flex;
     justify-content: space-around;
-    margin:0 150px;
-    
 }
 .card1,
 .card2,
 .card3,
-.card4,
-.card5,
-.card6{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin-top: 15%;
+.card4{
     padding: 20px;
-    text-align: center;
     background-size: cover;
     background-position: center;
-    height: 35vh;
+    height: 50vh;
+}
+
+.card5,
+.card6,
+.card7,
+.card8,
+.card9,
+.card10,
+.card11,
+.card12,
+.card13,
+.card14,
+.card15,
+.card16,
+.card17,
+.card18,
+.card19,
+.card20,
+.card21,
+.card22{
+    margin-top: 15%;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+}
+.card23,
+.card24,
+.card25,
+.card26,
+.card27,
+.card28,
+.card29{
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
 }
 
 .card1 {
     background-image: url(../image/bus.jpg);
 }
 .card2 {
-    background-image: url(../image/2.jpg);
+    background-image: url(../image/25.jpg);
 }
 .card3 {
-    background-image: url(../image/3.jpg);
+    background-image: url(../image/24.jpg);
 }
 .card4 {
-    background-image: url(../image/4.jpg);
+    background-image: url(../image/29.jpg);
 }
 .card5 {
     background-image: url(../image/5.jpg);
@@ -138,7 +251,75 @@ ul li a:hover{
 .card6 {
     background-image: url(../image/6.jpg);
 }
-
+.card7 {
+    background-image: url(../image/7.jpg);
+}
+.card8 {
+    background-image: url(../image/8.jpg);
+}
+.card9 {
+    background-image: url(../image/9.jpg);
+}
+.card10 {
+    background-image: url(../image/10.jpg);
+}
+.card11 {
+    background-image: url(../image/11.jpg);
+}
+.card12 {
+    background-image: url(../image/12.jpg);
+}
+.card13 {
+    background-image: url(../image/13.jpg);
+}
+.card14 {
+    background-image: url(../image/14.jpg);
+}
+.card15 {
+    background-image: url(../image/15.jpg);
+}
+.card16 {
+    background-image: url(../image/16.jpg);
+}
+.card17 {
+    background-image: url(../image/17.jpg);
+}
+.card18 {
+    background-image: url(../image/18.jpg);
+}
+.card19 {
+    background-image: url(../image/19.jpg);
+}
+.card20 {
+    background-image: url(../image/20.jpg);
+}
+.card21 {
+    background-image: url(../image/21.jpg);
+}
+.card22 {
+    background-image: url(../image/22.jpg);
+}
+.card23 {
+    background-image: url(../image/23.jpg);
+}
+.card24 {
+    background-image: url(../image/6.jpg);
+}
+.card25 {
+    background-image: url(../image/3.jpg);
+}
+.card26 {
+    background-image: url(../image/11.jpg);
+}
+.card27 {
+    background-image: url(../image/2.jpg);
+}
+.card28 {
+    background-image: url(../image/28.jpg);
+}
+.card29 {
+    background-image: url(../image/29.jpg);
+}
 span{
     display: flex;
     align-items: flex-end;
@@ -150,17 +331,99 @@ span{
     font-family: 'Hind Vadodara', sans-serif;
 }
 
-.column .card4:hover,
 .column .card5:hover,
-.column .card6:hover{
-    border-radius: 5px;
+.column .card6:hover,
+.column .card7:hover,
+.column .card8:hover,
+.column .card9:hover,
+.column .card10:hover,
+.column .card11:hover,
+.column .card12:hover,
+.column .card13:hover,
+.column .card14:hover,
+.column .card15:hover,
+.column .card16:hover,
+.column .card17:hover,
+.column .card18:hover,
+.column .card19:hover,
+.column .card20:hover,
+.column .card21:hover,
+.column .card21:hover,
+.column .card22:hover,
+.column .card23:hover,
+.column .card24:hover,
+.column .card25:hover,
+.column .card26:hover,
+.column .card27:hover,
+.column .card28:hover,
+.column .card29:hover{
+  
     transition: 0.7s ease;
     margin-right: 2%;
     margin-left: 2%;
 }
-footer{
-    background: rgba(43, 156, 120, 0.815);
-    padding: 20px;
-    text-align: center;
+.Recomment{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3% 0;
+}
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background: rgba(36, 33, 33, 0.699);
+}
+.col1,
+.service{
+    margin: 2% 0;
+}
+.start{
+    width: 160%;
+    border-bottom: 1px solid #fff;
+    height:4vh;
+   
+}
+.start1{
+    width: 160%;
+    border-bottom: 1px solid #fff;
+    height:4.1vh;
+   
+   
+}
+h2{
+    width: 80%;
     color: #fff;
+    border-bottom: 1px solid red;
+    padding-bottom: 3%;
+    font-size: 18px;
+  
+}
+li{
+    list-style: none;
+    padding: 5% 0;
+    border-bottom: 1px solid #fff;
+    width: 160%;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+li a:hover{
+   color: rgba(219, 34, 34, 0.87);
+}
+.end{
+    border: none;
+}
+
+.fo{
+    background: rgb(20, 20, 20);
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    padding: 20px;
+    color: rgba(216, 193, 193, 0.555);
+    font-size: 15px;
+    text-align: center;
 }

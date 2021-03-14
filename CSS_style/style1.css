@@ -1,8 +1,11 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../image/sear.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url(../image/1.jpg);
     font-family: sans-serif;
+    background-size: cover;
+    background-position: center;
+
 
 }
 .manu{
@@ -10,6 +13,10 @@ body{
     justify-content: space-between;
     position: sticky;
     top: 0;
+}
+.home,
+.contact{
+    border: none;
 }
 h4{
     text-transform: uppercase;
@@ -34,27 +41,19 @@ img{
     margin-left: 2%;
     font-family: cursive;
 }
-ul .home a{
-    color: peru;
-}
 ul{
-    list-style: none;
     display: flex;
-    margin-right: 3%;
-    height: 5vh;
-    align-items: center;
-    margin-top: 2%;
-    margin-left: 50%;
-}
-ul li{
-    padding: 20px;
+    width: 26%;
+    margin-right: 2%;
 }
 ul li a{
-    text-decoration: none;
-    color: #fff;
     font-size: 17px;
     text-transform: uppercase;
 }
+ul .home a{
+    color: peru;
+}
+
 /* hover */
 ul li a:hover{
     border: 1px solid #fff;
@@ -115,10 +114,87 @@ iframe{
     width:532px;
     height:200px;
 }
-footer{
-    background: rgba(43, 156, 120, 0.815);
-    padding: 20px;
-    text-align: center;
+
+/* footer */
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background: rgba(36, 33, 33, 0.699);
+}
+.col1,
+.service{
+    margin: 2% 0;
+}
+.start{
+    width: 160%;
+    border-bottom: 1px solid #fff;
+    height:3.9vh;
+}
+.start1{
+    width: 160%;
+    border-bottom: 1px solid #fff;
+    height:4.1vh;
+}
+.start2{
+    width: 160%;
+    border-bottom: 1px solid #fff;
+    height:4vh;
+}
+h2{
+    width: 80%;
     color: #fff;
+    border-bottom: 1px solid red;
+    padding-bottom: 3%;
+    font-size: 18px;
+  
+}
+h3{
+    color: rgba(216, 193, 193, 0.555);
+}
+.fa{
+    font-size: 20px;
+    color: rgba(0, 255, 255, 0.726);
+}
+li{
+    list-style: none;
+    padding: 5% 0;
+    border-bottom: 1px solid #fff;
+    width: 160%;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+li a:hover{
+   color: rgba(219, 34, 34, 0.87);
+}
+.end{
+    border: none;
 }
 
+.fo{
+
+    background: rgb(20, 20, 20);
+    display: flex;
+    justify-content: space-between;
+}
+.follow{
+    display: flex;
+    width: 25%;
+}
+.fac{
+    margin-left: 5%;
+}
+.fac,
+.tele,
+.email{
+    width: 10%;
+}
+footer{
+    padding: 20px;
+    color: rgba(216, 193, 193, 0.555);
+    font-size: 15px;
+    margin-left: 10%;
+}
